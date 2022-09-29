@@ -26,3 +26,8 @@ G002 ABRIR VENTANA MODAL
     Title Should Be     Hola Mundo!
     Wait Until Element Is Visible      xpath=//*[@id="exampleModal"]/div/div/div[1]
     Close Browser
+
+G003 ABRIR HOMEPAGE
+    Open Homepage
+    Wait Until Element Is Visible    Xpath=//*[@id="Menu "]/li[4]/a
+    Close Browser
